@@ -12,7 +12,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 ### Links
 
 - Solution URL: [See Repository](https://github.com/eyedent1ty/ping-coming-soon)
-- Live Site URL: [See Live](https://your-live-site-url.com)
+- Live Site URL: [See Live](https://eyedent1ty-ping-coming-soon.netlify.app/)
 
 ### Built with
 - CSS custom properties
