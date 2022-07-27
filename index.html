@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ping Coming Soon Page</title>
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main class="main">
+        <img
+          class="logo"
+          src="images/logo.svg"
+          alt="logo image"
+          width="86"
+          height="26"
+        />
+        <p class="soon-text mb-20">
+          We are launching <span class="bold">soon!</span>
+        </p>
+        <p class="subscription-text mb-30">Subscribe and get notified</p>
+        <form id="notify-form" class="notify-form">
+          <input
+            type="text"
+            class="input mb-10"
+            id="email-input"
+            placeholder="Your email address..."
+          />
+          <button type="submit" class="button">Notify Me</button>
+        </form>
+        <p id="invalid" class="invalid hide">
+          Please provide a valid email address
+        </p>
+        <img
+          class="illustration"
+          src="images/illustration-dashboard.png"
+          alt="illustration-dashboard"
+          width="315px"
+        />
+      </main>
+      <footer class="footer">
+        <div class="icons">
+          <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+          <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+        </div>
+        <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+    </div>
+    <script defer src="index.js"></script>
+  </body>
+</html>
